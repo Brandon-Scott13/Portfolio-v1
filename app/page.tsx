@@ -1,3 +1,5 @@
+import "./globals.css";
+
 const builds = [
   {
     title: "Life OS",
@@ -21,7 +23,7 @@ const builds = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg neutral-950 text-white">
+    <main className="min-h-screen cinematic-bg text-white">
       <div className="max-w-4x1 mx-auto px-6 py-16">
        
        {/* Top Bar */}
@@ -127,7 +129,7 @@ export default function Home() {
 
           <div className="mt-6 rounded-2x1 border border-neutral-900 p-5 bg-neutral-950">
               <p className="text-sm text-neutral-400">
-                Next Upgrade: I'll add a "Visual Work"  grid with 6-9 selects and short captions
+                Next Upgrade: I'll add a "Visual Work" grid with 6-9 selects and short captions
                 (no client overwhelm, just proof of creative execution and taste).
               </p>
           </div>
