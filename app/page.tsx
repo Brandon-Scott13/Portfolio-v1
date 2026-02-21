@@ -24,31 +24,31 @@ const builds = [
 export default function Home() {
   return (
     <main className="min-h-screen cinematic-bg text-white">
-      <div className="max-w-4x1 mx-auto px-6 py-16">
+      <div className="max-w-6x1 mx-auto px-8 py-32">
        
        {/* Top Bar */}
         <header className="flex items-center justify-between mb-16">
           <div className="text-sm tracking wide text neutral-400">
             Brandon Scott
           </div>
-          <nav className="flex gap-6 text-sm text-neutral-300">
-            <a className="hover:text-white transition" href="#Home">Home</a>
-            <a className="hover:text-white transition" href="#Builds">Builds</a>
-            <a className="hover:text-white transition" href="#Creative">Creative</a>
-            <a className="hover:text-white transition" href="#Contact">Contact</a>
+          <nav className="flex gap-6 text-sm text-white/70">
+            <a className="text-white/70 hover:text-white transition" href="#Home">Home</a>
+            <a className="text-white/70 hover:text-white transition" href="#Builds">Builds</a>
+            <a className="text-white/70 hover:text-white transition" href="#Creative">Creative</a>
+            <a className="text-white/70 hover:text-white transition" href="#Contact">Contact</a>
           </nav>
         </header>
       
         {/* Hero Section */}
-        <section className="mb-14">
+        <section className="mb-20 max-w-3x1">
 
           <p className="text-sm text-neutral-400 mb-4">
             Finance • Systems • Product • Creative Execution
           </p>
 
-          <h1 className="text-5x1 md:text-6x1 font-bold leading-tight mb-6">
+          <h1 className="text-6x1 md:text-8x1 font-semibold leading-[1.05] tracking-tight mb-8">
             I design and ship{" "}
-            <span className="text-neutral-300"> structured digital products for creatives.</span>
+            <span className="bg-linear-to-r from-indigo-300 to-emerald-300 bg-clip-text text-transparent"> structured digital products for creatives.</span>
           </h1>
 
           <p className="text x1 text-neutral-400 max-w-2x1">
@@ -71,26 +71,26 @@ export default function Home() {
 
 
       {/* Divider */}
-      <div className="h-px bg-neutral-900 my-12" />
+      <div className="h-px bg-linear-to-r from-transparent via-white/10 to-transparent my-20" />
 
 
 
       {/* Builds */}
-      <section id="builds" className="mb-14">
+      <section id="builds" className="max-w-6x1">
          <div className="flex items-end justify betweengap-6 mb-8">
           <div>
-            <h2 className="text-2x1 font-semibold">Currently Building </h2>
+            <h2 className="text-2x1 font-semibold tracking-tight mb-6">Currently Building </h2>
             <p className="text-neutral-400 mt-2">
               Active projects with clear outcomes -build for real use.
             </p>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-3 gap-6 mt-12">
           {builds.map((b) => (
             <div
               key={b.title}
-              className="rounded-x1 border border-neutral-900 bg-neatral950 p-5 hover:border-neutral-700 transition"
+              className="rounded-2xl border border-white/10 bg-black/25 backdrop-blur-md p-6 hover:border-white/20 hover:bg-black/35 hover:shadow-[0_0_60px_rgba(99,102,241,0.14)] transition duration-300"
             >
               <div className="flex items-start justify-between gap-4 mb-3">
                 <h3 className="text-lg font-semibold">{b.title}</h3>
@@ -121,7 +121,7 @@ export default function Home() {
         {/* Creative */}
         <section id="creative" className="mb-14">
           <h2 className="text-2x1 font semibold mb-3">Creative Execution</h2>
-          <p className="text-neutral-400 max-w-2x1">
+          <p className="mt-6 text-sm text-white/50 italic">
             Photography and videography are part of my product thinking: composition, 
             pacing, storytelling, and taste. I don&#39;t separate creativity from systems-
             I use it to ship better work.
