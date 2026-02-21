@@ -58,7 +58,7 @@ export default function Home() {
           <div className="flex flex-wrap gap 3 mt-8">
             <a href="#builds" 
             className="px-4 py-2 rounded-x1 bg-white text-black text-sm font-medium hover:opacity-90">
-              See what I'm building
+              See what I&#39;m building
             </a>
             <a
               href="#contact"
@@ -123,13 +123,13 @@ export default function Home() {
           <h2 className="text-2x1 font semibold mb-3">Creative Execution</h2>
           <p className="text-neutral-400 max-w-2x1">
             Photography and videography are part of my product thinking: composition, 
-            pacing, storytelling, and taste. I don't separate creativity from systems-
+            pacing, storytelling, and taste. I don&#39;t separate creativity from systems-
             I use it to ship better work.
           </p>
 
           <div className="mt-6 rounded-2x1 border border-neutral-900 p-5 bg-neutral-950">
               <p className="text-sm text-neutral-400">
-                Next Upgrade: I'll add a "Visual Work" grid with 6-9 selects and short captions
+                Next Upgrade: I&#39;ll add a &quot;Visual Work&quot; grid with 6-9 selects and short captions
                 (no client overwhelm, just proof of creative execution and taste).
               </p>
           </div>
