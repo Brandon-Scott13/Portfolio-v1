@@ -121,13 +121,13 @@ export default function Home() {
         {/* Creative */}
         <section id="creative" className="mb-14">
           <h2 className="text-2x1 font semibold mb-3">Creative Execution</h2>
-          <p className="mt-6 text-sm text-white/50 italic">
+          <p className="text-neutral-400 max-w-2x1">
             Photography and videography are part of my product thinking: composition, 
             pacing, storytelling, and taste. I don&#39;t separate creativity from systems-
             I use it to ship better work.
           </p>
 
-          <div className="mt-6 rounded-2x1 border border-neutral-900 p-5 bg-neutral-950">
+          <div className="mt-6 text-sm text-white/50 italic">
               <p className="text-sm text-neutral-400">
                 Next Upgrade: I&#39;ll add a &quot;Visual Work&quot; grid with 6-9 selects and short captions
                 (no client overwhelm, just proof of creative execution and taste).
